@@ -14,9 +14,20 @@ Lida com as requisições dos usuários, com a interface de usuário e como os d
 
 ## Tier Aplicação
 
-Também conhecida por [ff].
 Lida com a lógica de negócio da aplicação, operações CRUD.  Essa camada não foca em como as informações serão apresentadas nem em como os dados são armazenados.
 
 ## Tier Dados
 
 Foca em como os dados serão armazenados e fornece uma interface para que a [[#Tier Aplicação]] receba esses dados.
+
+---
+## Vantagens da arquitetura 3-Tier
+
+- Cada tier é independente.
+- Fácil de manter
+- Client não tem acesso direto ao banco de dados
+
+## Desvantagens da arquitetura 3-Tier
+
+- Leva mais tempo para desenvolver uma aplicação pequena
+- Requer bom entendimento de [[Programação Orientada a Objetos - OOP|OOP]]
