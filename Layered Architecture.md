@@ -7,7 +7,7 @@ A arquitetura em camadas organiza sistemas em camadas.
 
 ## O que são camadas?
 
-Camadas separam a aplicação. Cada camada tem uma responsabilidade especifica como lidar com as requisições ou lógica de negócio. Essa separação torna as camadas independentes das outras (modulares) promovendo [[Separation of concerns]].
+Camadas separam a aplicação. Cada camada tem uma responsabilidade especifica, como lidar com requisições ou lógica de negócio. Essa separação torna as camadas independentes das outras (modulares) promovendo a [[Separation of concerns]].
 
 Quando uma camada é **fechada** ela só pode usar os serviços da camada diretamente abaixo. Quando uma camada é **aberta** qualquer camada pode requisitar seus serviços ou ela pode ser ignorada. É importante identificar quais camadas devem ser abertas.
 
